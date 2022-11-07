@@ -13,8 +13,8 @@ app = Flask(__name__)
 port = 5001
 
 # Initialise the model
-tokenizer_name = 'tokenizer_v0(chatbot.h5).pkl'
-model_name = 'chatbot.h5'
+tokenizer_name = 'tokenizer_v2.pkl'
+model_name = 'chatbot_final.h5'
 
 # open tokenizer
 with open(tokenizer_name, 'rb') as handle:
@@ -64,13 +64,18 @@ model = tf.keras.models.load_model(model_name,
     custom_objects={
             "PositionalEncoding": PositionalEncoding,
             "MultiHeadAttentionLayer": MultiHeadAttentionLayer,
+            "create_padding_mask": create_padding_mask,
+            "create_look_ahead_mask": create_look_ahead_mask
         }, compile=False)
-
 
 @app.route('/')
 def index():
     return "Social chatbot API is running."
 
+@app.route('/summary')
+def summary():
+    print(model.summary())
+    return "Refer to console log for model summary."
 
 # route http posts to this method
 @app.route('/predict', methods=['POST'])
