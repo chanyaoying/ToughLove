@@ -1,4 +1,3 @@
 rasa-nlu==0.15.1
-spacy==2.0.18
+spacy==2.3.8
 sklearn-crfsuite==0.3.6
-regex==2021.8.28 # trying now

@@ -12,6 +12,7 @@ COPY ./models/intent ./
 
 # Install additional dependencies
 RUN . /usr/src/app/venv/bin/activate && pip install -r requirements.txt
+RUN . /usr/src/app/venv/bin/activate && python -m spacy download en_core_web_md
 
 # Run
 EXPOSE 5002

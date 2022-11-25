@@ -7,10 +7,15 @@ from preprocessing import preprocess_sentence
 import pickle
 from flask import Flask, request, jsonify
 
+# add flask-cors
+from flask_cors import CORS
+
 
 # Initialize the Flask application
 app = Flask(__name__)
 port = 5001
+# cors
+CORS(app)
 
 # Initialise the model
 tokenizer_name = 'tokenizer_v2.pkl'

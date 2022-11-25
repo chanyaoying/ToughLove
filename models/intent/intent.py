@@ -1,8 +1,10 @@
 from flask import Flask, request, jsonify
 from rasa_nlu.model import Interpreter
+from flask_cors import CORS
 
 # Initialize the Flask application
 app = Flask(__name__)
+CORS(app)
 port = 5002
 
 # load the trained model

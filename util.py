@@ -1,4 +1,5 @@
 import nltk
+nltk.download('punkt')
 
 def pronoun_substitution(user_input):
     """
