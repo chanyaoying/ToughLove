@@ -101,3 +101,24 @@ Run the program. Windows users can use `python` instead of `python3`:
 ```
 python3 main.py
 ```
+
+## Usage
+
+### Testing the API
+Upon installation, check that the backend is running by going to `localhost:5000` in your browser. You should see a message that says `ToughLove API is running.`. If you see this, then the orchestrator is running.
+
+### Testing that the microservices are working
+Run this command to test that the microservices are working:
+```bash
+curl "http://localhost:5000/test"
+```
+
+You should receive a response that looks like this:
+```json
+{
+    "insult": "Insult API is running.",
+    "intent": "Intent Classifier API is running.",  "social":"Social chatbot API is running."
+}
+```
+### Using with the frontend
+The frontend is located [here](https://github.com/Rdice14/chat-ui). Instructions on how to run the frontend can be found in the README.md file in the frontend repository.
