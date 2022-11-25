@@ -9,7 +9,7 @@ port = 5000
 
 # enable cors
 CORS(app)
-local = True
+local = False
 social_hostname = "http://localhost:5001/" if local else "http://ToughLove_Social:5001/"
 intent_hostname = "http://localhost:5002/" if local else "http://ToughLove_Intent:5002/"
 insult_hostname = "http://localhost:5003/" if local else "http://ToughLove_Insult:5003/"
@@ -22,10 +22,11 @@ def index():
 def test():
     social_response = requests.get(social_hostname)
     social_text = social_response.text
-    print(social_text)
     intent_response = requests.get(intent_hostname)
     intent_text = intent_response.text
-    return jsonify({'social': social_text, 'intent': intent_text})
+    insult_response = requests.get(insult_hostname)
+    insult_text = insult_response.text
+    return jsonify({"social": social_text, "intent": intent_text, "insult": insult_text})
 
 @app.route('/get-response/<text>/<withInsult>', methods=["GET"])
 def get_response(text, withInsult):

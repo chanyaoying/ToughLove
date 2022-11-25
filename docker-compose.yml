@@ -45,3 +45,14 @@ services:
       - "5002:5002"
     depends_on:
       - ToughLove_Main
+
+  ToughLove_Insult:
+    image: yaoyingsmu/toughlove_insult:latest
+    build:
+      context: .
+      dockerfile: dockerfiles/insult.dockerfile
+    container_name: ToughLove_Insult
+    ports:
+      - "5003:5003"
+    depends_on:
+      - ToughLove_Main
