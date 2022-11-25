@@ -33,22 +33,22 @@ def get_response(text, withInsult):
 
     if withInsult:
         # send the text to the intent classifier
-        intent = requests.post('http://localhost:5002/intent', json=text_json).json()
+        intent = requests.post('http://127.0.0.1:5002/intent', json=text_json).json()
         print("Intent: ", intent, "\n")
         intent = intent['intent']
         if intent == "Unrelated":
             # send the text to the social chatbot
-            predicted_text = requests.post('http://localhost:5001/predict', json=text_json).json()
+            predicted_text = requests.post('http://127.0.0.1:5001/predict', json=text_json).json()
             return jsonify({'is_insult': False, 'chatbot_response': predicted_text['chatbot_response']})
 
         # send the text to the insult bot
         # pronoun substitution
         user_input = text_json['text']
         parsed_user_input = pronoun_substitution(user_input)
-        generated_insult = requests.post('http://localhost:5003/get-insult', json={'text': parsed_user_input + ", "}).json()
+        generated_insult = requests.post('http://127.0.0.1:5003/get-insult', json={'text': parsed_user_input + ", "}).json()
         return jsonify({'is_insult': True, 'insult_data': generated_insult, 'intent': intent})
     else:
-        predicted_text = requests.post('http://localhost:5001/predict', json=text_json).json()
+        predicted_text = requests.post('http://127.0.0.1:5001/predict', json=text_json).json()
         return jsonify({'is_insult': False, 'chatbot_response': predicted_text['chatbot_response']})
 
 app.run(host='0.0.0.0', port=port, debug=False) 

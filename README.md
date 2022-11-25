@@ -1,7 +1,7 @@
 # ToughLove
 
 ## Prerequisites
-- Python >= 3.7, or
+- Python = 3.7 (only)
 - Docker & Docker Compose
 
 ## Installation
