@@ -1,0 +1,27 @@
+version: "3.8"
+
+services:
+    
+    ToughLove_Main:
+        image: yaoyingsmu/toughlove_main:latest
+        build:
+            context: .
+            dockerfile: dockerfiles/main.dockerfile
+        # restart: always
+        container_name: ToughLove_Main
+        ports:
+            - "5000:5000"
+
+    ToughLove_Test:
+        image: yaoyingsmu/toughlove_test:latest
+        build:
+            context: .
+            dockerfile: dockerfiles/test.dockerfile
+        # restart: always
+        container_name: ToughLove_Test
+        ports:
+            - "5001:5001"
+        depends_on:
+            - ToughLove_Main
+
+    
