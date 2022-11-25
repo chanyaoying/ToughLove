@@ -9,6 +9,7 @@ port = 5000
 
 # enable cors
 CORS(app)
+
 local = False
 social_hostname = "http://localhost:5001/" if local else "http://ToughLove_Social:5001/"
 intent_hostname = "http://localhost:5002/" if local else "http://ToughLove_Intent:5002/"

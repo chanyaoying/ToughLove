@@ -1,7 +1,9 @@
 import unicodedata
 import re
 import html
+import nltk
 from nltk.tokenize import word_tokenize
+nltk.download('punkt')
 import contractions
 
 def preprocess_sentence(sentence):
