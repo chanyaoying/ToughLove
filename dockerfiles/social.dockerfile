@@ -8,12 +8,12 @@ COPY --from=yaoyingsmu/toughlove_main:latest /usr/src/app/venv /usr/src/app/venv
 ENV PATH="/usr/src/app/venv/bin:$PATH"
 
 # Copy app
-COPY ./test.py ./
-COPY ./util.py ./
+COPY ./models/social ./
+
+# Install additional dependencies
+RUN . /usr/src/app/venv/bin/activate && pip install -r requirements.txt
 
 # Run
-# RUN export FLASK_APP=test
 EXPOSE 5001
 
-CMD ["python", "test.py"]
-# CMD [ "gunicorn", "-b", ":8001", "test:app", "-w", "2", "--threads", "4", "--worker-class", "gthread"]
+CMD . /usr/src/app/venv/bin/activate && python social.py
