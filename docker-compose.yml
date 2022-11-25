@@ -35,3 +35,13 @@ services:
     depends_on:
       - ToughLove_Main
 
+  ToughLove_Intent:
+    image: yaoyingsmu/toughlove_intent:latest
+    build:
+      context: .
+      dockerfile: dockerfiles/intent.dockerfile
+    container_name: ToughLove_Intent
+    ports:
+      - "5002:5002"
+    depends_on:
+      - ToughLove_Main

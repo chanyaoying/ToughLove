@@ -1,0 +1,2029 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "Old",
+        "text": "I am already in my 30s"
+      },
+      {
+        "intent": "Old",
+        "text": "My 40th birthday is coming"
+      },
+      {
+        "intent": "Old",
+        "text": "I am already the oldest among my cousins"
+      },
+      {
+        "intent": "Old",
+        "text": "I am the oldest among my peers"
+      },
+      {
+        "intent": "Old",
+        "text": "Nobody respects me even though I am the oldest"
+      },
+      {
+        "intent": "Old",
+        "text": "I am worried about my children."
+      },
+      {
+        "intent": "Old",
+        "text": "So many things to worry about as an adult"
+      },
+      {
+        "intent": "Old",
+        "text": "Being an adult sucks"
+      },
+      {
+        "intent": "Old",
+        "text": "Adulting sucks"
+      },
+      {
+        "intent": "Old",
+        "text": "Now I know why being a student is good"
+      },
+      {
+        "intent": "Old",
+        "text": "Working is much more stressful than being a student"
+      },
+      {
+        "intent": "Old",
+        "text": "I miss studying"
+      },
+      {
+        "intent": "Old",
+        "text": "I wish I could go back to my childhood"
+      },
+      {
+        "intent": "Old",
+        "text": "I wish I could be a student again"
+      },
+      {
+        "intent": "Old",
+        "text": "I miss the old days"
+      },
+      {
+        "intent": "Old",
+        "text": "Growing old sucks man"
+      },
+      {
+        "intent": "Old",
+        "text": "I think I am growing old"
+      },
+      {
+        "intent": "Old",
+        "text": "My relatives ask me every year, what have I accomplished?"
+      },
+      {
+        "intent": "Old",
+        "text": "I feel like i’m aging rapidly"
+      },
+      {
+        "intent": "Old",
+        "text": "I wish I could be young and healthy again"
+      },
+      {
+        "intent": "Old",
+        "text": "It’s tough once you grow old"
+      },
+      {
+        "intent": "Old",
+        "text": "My back aches"
+      },
+      {
+        "intent": "Old",
+        "text": "A lot of problems once you grow old"
+      },
+      {
+        "intent": "Old",
+        "text": "So many responsibilities as an adult"
+      },
+      {
+        "intent": "Old",
+        "text": "I feel like hair is turning grey from stress"
+      },
+      {
+        "intent": "Old",
+        "text": "Others treat me like an old man"
+      },
+      {
+        "intent": "Old",
+        "text": "I’m turning 40 soon"
+      },
+      {
+        "intent": "Old",
+        "text": "My knees hurt when I climb the stairs."
+      },
+      {
+        "intent": "Old",
+        "text": "It’s difficult to climb up and down the stairs"
+      },
+      {
+        "intent": "Old",
+        "text": "I always get called a boomer."
+      },
+      {
+        "intent": "Old",
+        "text": "I'm still using Facebook."
+      },
+      {
+        "intent": "Old",
+        "text": "I'm not up to date with the latest trends"
+      },
+      {
+        "intent": "Old",
+        "text": "People tell me to keep up with the trends"
+      },
+      {
+        "intent": "Old",
+        "text": "People say I'm not up with the times"
+      },
+      {
+        "intent": "Old",
+        "text": "People always make fun of my age."
+      },
+      {
+        "intent": "Old",
+        "text": "People hate when I bring up old times."
+      },
+      {
+        "intent": "Old",
+        "text": "People always call me an old fossil."
+      },
+      {
+        "intent": "Old",
+        "text": "All these zoomers"
+      },
+      {
+        "intent": "Old",
+        "text": "Being a child is so carefree"
+      },
+      {
+        "intent": "Short",
+        "text": "People always make fun of my height."
+      },
+      {
+        "intent": "Short",
+        "text": "People always call me shorty-pants"
+      },
+      {
+        "intent": "Short",
+        "text": "People say i look like a shrimp."
+      },
+      {
+        "intent": "Short",
+        "text": "People say I look like a chibi."
+      },
+      {
+        "intent": "Short",
+        "text": "I am much shorter than my peers"
+      },
+      {
+        "intent": "Short",
+        "text": "I always have to look up at people"
+      },
+      {
+        "intent": "Short",
+        "text": "People call me a midget"
+      },
+      {
+        "intent": "Short",
+        "text": "People describe me as a dwarf"
+      },
+      {
+        "intent": "Short",
+        "text": "My nickname at school is shortie"
+      },
+      {
+        "intent": "Short",
+        "text": "I am used as an arm-rest by my classmates."
+      },
+      {
+        "intent": "Short",
+        "text": "My classmates use me as an arm-rest"
+      },
+      {
+        "intent": "Short",
+        "text": "People always bump into me saying they didnt see me"
+      },
+      {
+        "intent": "Short",
+        "text": "I am only 160 cm tall"
+      },
+      {
+        "intent": "Short",
+        "text": "My height is 150 cm"
+      },
+      {
+        "intent": "Short",
+        "text": "150 cm"
+      },
+      {
+        "intent": "Short",
+        "text": "160 cm"
+      },
+      {
+        "intent": "Short",
+        "text": "1.5m"
+      },
+      {
+        "intent": "Short",
+        "text": "1.6 m"
+      },
+      {
+        "intent": "Short",
+        "text": "People call me a kid just because I’m short"
+      },
+      {
+        "intent": "Short",
+        "text": "I’m called a kid because of my height"
+      },
+      {
+        "intent": "Short",
+        "text": "Some mistake me as a kid"
+      },
+      {
+        "intent": "Short",
+        "text": "I can’t get things on high shelves"
+      },
+      {
+        "intent": "Short",
+        "text": "They hide things really high up so I can’t reach"
+      },
+      {
+        "intent": "Short",
+        "text": "I’m much shorter than most"
+      },
+      {
+        "intent": "Short",
+        "text": "I am quite tiny"
+      },
+      {
+        "intent": "Short",
+        "text": "Everybody else is so tall"
+      },
+      {
+        "intent": "Short",
+        "text": "I am really small-sized"
+      },
+      {
+        "intent": "Short",
+        "text": "I am insecure about my height"
+      },
+      {
+        "intent": "Short",
+        "text": "I am jealous of tall people"
+      },
+      {
+        "intent": "Short",
+        "text": "I look really small in real life"
+      },
+      {
+        "intent": "Short",
+        "text": "I feel insecure about being short"
+      },
+      {
+        "intent": "Short",
+        "text": "People treat me like a child because I'm short."
+      },
+      {
+        "intent": "Short",
+        "text": "I am vertically challenged."
+      },
+      {
+        "intent": "Short",
+        "text": "I wish I could become taller."
+      },
+      {
+        "intent": "Short",
+        "text": "Some girls are taller than me"
+      },
+      {
+        "intent": "Short",
+        "text": "Almost everybody calls me a shorty"
+      },
+      {
+        "intent": "Short",
+        "text": "People always pat me on my head"
+      },
+      {
+        "intent": "Short",
+        "text": "People think im puny"
+      },
+      {
+        "intent": "Short",
+        "text": "I can't see anything if others block me."
+      },
+      {
+        "intent": "Short",
+        "text": "I always have to tiptoe"
+      },
+      {
+        "intent": "Short",
+        "text": "I look shorter than people younger than me"
+      },
+      {
+        "intent": "Fat",
+        "text": "I always hear \"yo mama so fat\" jokes"
+      },
+      {
+        "intent": "Fat",
+        "text": "Some people make fun of me saying im fat"
+      },
+      {
+        "intent": "Fat",
+        "text": "I am jealous of those who can eat without getting fat"
+      },
+      {
+        "intent": "Fat",
+        "text": "Im overweight"
+      },
+      {
+        "intent": "Fat",
+        "text": "Im obese"
+      },
+      {
+        "intent": "Fat",
+        "text": "My BMI is quite high"
+      },
+      {
+        "intent": "Fat",
+        "text": "I need to lose weight"
+      },
+      {
+        "intent": "Fat",
+        "text": "I go to Mcdonalds often"
+      },
+      {
+        "intent": "Fat",
+        "text": "I eat fast food everyday"
+      },
+      {
+        "intent": "Fat",
+        "text": "I like eating fast food"
+      },
+      {
+        "intent": "Fat",
+        "text": "Some people bump into me on purpose"
+      },
+      {
+        "intent": "Fat",
+        "text": "I cannot lose weight"
+      },
+      {
+        "intent": "Fat",
+        "text": "80 kg"
+      },
+      {
+        "intent": "Fat",
+        "text": "70 kg"
+      },
+      {
+        "intent": "Fat",
+        "text": "90 kg"
+      },
+      {
+        "intent": "Fat",
+        "text": "100kg"
+      },
+      {
+        "intent": "Fat",
+        "text": "160 pounds"
+      },
+      {
+        "intent": "Fat",
+        "text": "170 pounds"
+      },
+      {
+        "intent": "Fat",
+        "text": "180 pounds"
+      },
+      {
+        "intent": "Fat",
+        "text": "200 pounds"
+      },
+      {
+        "intent": "Fat",
+        "text": "I am very heavy"
+      },
+      {
+        "intent": "Fat",
+        "text": "They call me obese"
+      },
+      {
+        "intent": "Fat",
+        "text": "My BMI is really high"
+      },
+      {
+        "intent": "Fat",
+        "text": "My body fat percentage is really high"
+      },
+      {
+        "intent": "Fat",
+        "text": "I always get dissed for eating too much"
+      },
+      {
+        "intent": "Fat",
+        "text": "People say if I sit on the chair it will break"
+      },
+      {
+        "intent": "Fat",
+        "text": "People say the chair cannot carry my weight"
+      },
+      {
+        "intent": "Fat",
+        "text": "Others call me fat"
+      },
+      {
+        "intent": "Fat",
+        "text": "I often get fat-shamed"
+      },
+      {
+        "intent": "Fat",
+        "text": "I get called a fattie"
+      },
+      {
+        "intent": "Fat",
+        "text": "Bullies call me a fatso"
+      },
+      {
+        "intent": "Fat",
+        "text": "They say I eat like a pig"
+      },
+      {
+        "intent": "Fat",
+        "text": "They say I eat too much"
+      },
+      {
+        "intent": "Fat",
+        "text": "My friends tell me to lose weight"
+      },
+      {
+        "intent": "Fat",
+        "text": "I cant find clothes my size"
+      },
+      {
+        "intent": "Fat",
+        "text": "I'm actually kinda hungry right now"
+      },
+      {
+        "intent": "Fat",
+        "text": "Should I get some dessert"
+      },
+      {
+        "intent": "Fat",
+        "text": "I like late night snacking"
+      },
+      {
+        "intent": "Fat",
+        "text": "I always invite my friends out from supper"
+      },
+      {
+        "intent": "Fat",
+        "text": "I'm always hungry"
+      },
+      {
+        "intent": "Fat",
+        "text": "I cant find clothes for my body type"
+      },
+      {
+        "intent": "Skinny",
+        "text": "Some people say im skinny as a stick"
+      },
+      {
+        "intent": "Skinny",
+        "text": "Others call me a bamboo pole"
+      },
+      {
+        "intent": "Skinny",
+        "text": "I am severely underweight"
+      },
+      {
+        "intent": "Skinny",
+        "text": "I eat a lot but cannot gain weight"
+      },
+      {
+        "intent": "Skinny",
+        "text": "I look like I have no strength"
+      },
+      {
+        "intent": "Skinny",
+        "text": "People say I look like I get blown away by the wind"
+      },
+      {
+        "intent": "Skinny",
+        "text": "I only weigh 45 kg."
+      },
+      {
+        "intent": "Skinny",
+        "text": "40 kg"
+      },
+      {
+        "intent": "Skinny",
+        "text": "30 kg"
+      },
+      {
+        "intent": "Skinny",
+        "text": "70 pounds"
+      },
+      {
+        "intent": "Skinny",
+        "text": "People always ask me to eat more."
+      },
+      {
+        "intent": "Skinny",
+        "text": "I want to gain more weight."
+      },
+      {
+        "intent": "Skinny",
+        "text": "90 pounds"
+      },
+      {
+        "intent": "Skinny",
+        "text": "I am really thin"
+      },
+      {
+        "intent": "Skinny",
+        "text": "I don’t eat much"
+      },
+      {
+        "intent": "Skinny",
+        "text": "I skip some of my meals"
+      },
+      {
+        "intent": "Skinny",
+        "text": "I eat much less than my peers"
+      },
+      {
+        "intent": "Skinny",
+        "text": "My BMI is really low"
+      },
+      {
+        "intent": "Skinny",
+        "text": "People say my arms look like toothpicks"
+      },
+      {
+        "intent": "Skinny",
+        "text": "My family say I look like I starve myself"
+      },
+      {
+        "intent": "Skinny",
+        "text": "Others say I look like a bag of bones"
+      },
+      {
+        "intent": "Skinny",
+        "text": "Some call me all bones, no meat"
+      },
+      {
+        "intent": "Skinny",
+        "text": "I may have a eating disorder"
+      },
+      {
+        "intent": "Skinny",
+        "text": "I look like a matchstick"
+      },
+      {
+        "intent": "Skinny",
+        "text": "I would look better with more fat on my body"
+      },
+      {
+        "intent": "Skinny",
+        "text": "They always ask if I cannot afford food"
+      },
+      {
+        "intent": "Skinny",
+        "text": "It doesn’t matter how much I eat"
+      },
+      {
+        "intent": "Skinny",
+        "text": "I have trouble gaining weight"
+      },
+      {
+        "intent": "Skinny",
+        "text": "My relatives always ask me if I starve myself."
+      },
+      {
+        "intent": "Skinny",
+        "text": "I can't gain weight"
+      },
+      {
+        "intent": "Skinny",
+        "text": "I have a very high metabolism rate."
+      },
+      {
+        "intent": "Skinny",
+        "text": "People always say they are jealous of how I can eat and not gain weight."
+      },
+      {
+        "intent": "Skinny",
+        "text": "Skinny-shaming is just as bad as fat-shaming."
+      },
+      {
+        "intent": "Skinny",
+        "text": "People always assume I have no strength just because I'm skinny."
+      },
+      {
+        "intent": "Skinny",
+        "text": "I can't gain weight no matter how much I try"
+      },
+      {
+        "intent": "Skinny",
+        "text": "I'm underweight"
+      },
+      {
+        "intent": "Skinny",
+        "text": "They call me just skin and bones"
+      },
+      {
+        "intent": "Skinny",
+        "text": "I would look better if I gained some weight."
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I am really bad at sports"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I have no muscles lol"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I haven't exercised in really long."
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "Idk how im going to survive in NS"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I can’t run at all"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I cannot dribble a ball"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I was never good at sports throughout my entire life"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I dont exercise"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I dont run regularly"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I hate going to the gym"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I cannot lift heavy things"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I cannot do a pullup"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I have difficulty doing pushups"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I run really slow"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "How to gain muscle mass?"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I want to become stronger."
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I am physically unfit."
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I cannot pass IPPT"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I will fail NAPFA at this rate"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "When will I ever get fitter"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I cant do sports"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "There’s no sports genes in my family"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I am really unhealthy right now"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I really hate exercising"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "Exercise is not for me"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "People always ask me to go to the gym"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I am worried about NS"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I hate PT"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I hate PE"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I barely pass physical tests lol"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I always fail my fitness tests"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "Not physically inclined"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I’m quite weak"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I’m not physically strong"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I am really bad at ball games"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I failed my IPPT"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I suck at sports"
+      },
+      {
+        "intent": "Weak/Unathletic",
+        "text": "I’m not like those jocks"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I’m ugly, nobody likes me"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I am still a virgin"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "Nobody has ever liked me"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "Nobody will ever like me"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I dont have good fashion sense"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "Idk how to dress"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I wish I could dress well"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I just wear shorts and slippers to school."
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I don't put much effort into the way I dress"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I dont know how to dress"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I have never had a girlfriend"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I am single throughout my life"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I think I am ugly"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I admire handsome people"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "Oof nobody will ever like me"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I will be single forever"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "Bold of you to assume I have a girlfriend"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I was not blessed with good looks"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "Im too small for anybody to like me"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "People always reject me saying im ugly"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "Nobody has ever confessed to me before"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "When will i get a girlfriend"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "People call me ugly"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "People make fun of my looks"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I wear big ugly specs"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I look like a nerd"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "People say i look like a geek"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I always get rejected"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "Idk how to flirt"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I think nobody will ever love me"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "When will i find love"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I think it wont work out between me and her"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "My girlfriend left me"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I had a divorce"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I don't think I'm good-looking"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I am not good-looking"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "All of my friends have a girlfriend."
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I wish somebody would hug me."
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "Really wish someone could give me the love I deserve."
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I wish somebody could love me"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "All my friends have boyfriends."
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "Nobody wants me"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I am insecure about my looks"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I don't look good"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "I think I'm just born ugly"
+      },
+      {
+        "intent": "Ugly/Unattractive",
+        "text": "Nobody likes me"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I'm the best at painting"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I'm the greatest of all time"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I think I'm pretty cool"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I think I'm really good at gaming"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I scored the highest in my exam"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "Nobody can beat me"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I can run the fastest"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "Nobody even comes close to me"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I look good"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "So many guys confess to me"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I think it's disgusting how so many guys try to talk to me"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I topped my cohort in my exam"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I scored full marks for my quiz"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I am better than everyone else"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "Everybody should listen to me"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I think everyone else is dumb"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "Why are people so stupid"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "Why am I so good at everything"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I think God was not fair when creating people cuz im the best"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "im the GOAT"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I wish everyone else would just shut up"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "Why can't everybody just think the way I do"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "they are obviously wrong"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I did all the work in my project"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I already knew what he was going to say."
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "might as well just let me do the whole project"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I redid everything they did cuz it was trash"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "Nobody could block my shots"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I am the best at chess"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I am really good at basketball"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I was too fast for them"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "They couldn't catch up with me"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "Nobody could steal the ball from me"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I tank the whole project"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I tank the whole thing by myself"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I think they quite lousy"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "they damn lousy sia"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "Everybody can try to catch up with me but they never will"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "There's no debate I'm the best in the room"
+      },
+      {
+        "intent": "Overconfidence",
+        "text": "I think I'm the smartest in my entire class"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "People always call me stupid at work"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "My brain cannot twist and turn"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I'm not book-smart at all"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "Idk how my friends are so smart"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I think I shouldn't be in university"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "So many things to memorise as a student"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "JC is too tough for me"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "My classmates call me stupid in school"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I think I am not smart enough"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I don’t do well in school"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "Studying is not for me"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I got an F in the recent test"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I failed my test"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I’m not good at studying"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "People are way smarter than me"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "People have called me dumb before."
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I wish I was born smarter"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I cannot do math"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "Math is my most hated subject in school"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I stopped school early"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I only have primary school level education"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I only have secondary school level education"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I dropped out of university"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I dropped out of high school"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I dropped out of college"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I always get bad grades"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I fail most of my subjects"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I am really bad at most subjects except English"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I don’t score high on IQ tests"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "My grades are usually bad"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "My teachers gave up on me"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "Nobody wants to group with me for school projects"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "My GPA is really bad"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I barely scraped through my last test"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I would be lucky to even graduate"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I only aim to get 3rd class honours"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "How is it possible to pass my exam lol"
+      },
+      {
+        "intent": "Intelligence/Education",
+        "text": "I'm struggling in school"
+      },
+      {
+        "intent": "Lazy",
+        "text": "I don’t feel like doing anything today."
+      },
+      {
+        "intent": "Lazy",
+        "text": "I only have 3 days left before my deadline, but it’s too difficult."
+      },
+      {
+        "intent": "Lazy",
+        "text": "I could work, but I would rather just watch videos at home."
+      },
+      {
+        "intent": "Lazy",
+        "text": "I haven’t done any work in the past week."
+      },
+      {
+        "intent": "Lazy",
+        "text": "I haven’t studied for my exams yet"
+      },
+      {
+        "intent": "Lazy",
+        "text": "Why does everybody work so hard anyway"
+      },
+      {
+        "intent": "Lazy",
+        "text": "Grades are not that important"
+      },
+      {
+        "intent": "Lazy",
+        "text": "I would rather just play games at home"
+      },
+      {
+        "intent": "Lazy",
+        "text": "Why study if I’m not going to do well anyway?"
+      },
+      {
+        "intent": "Lazy",
+        "text": "I don’t understand why people works so hard,"
+      },
+      {
+        "intent": "Lazy",
+        "text": "I can just live off my parents’ money"
+      },
+      {
+        "intent": "Lazy",
+        "text": "I live in my moms basement"
+      },
+      {
+        "intent": "Lazy",
+        "text": "Ehhh i dont feel like working"
+      },
+      {
+        "intent": "Lazy",
+        "text": "I can just depend on my other project groupmates"
+      },
+      {
+        "intent": "Lazy",
+        "text": "I still have 3 days to study, no need to worry"
+      },
+      {
+        "intent": "Lazy",
+        "text": "I spend a lot of time on my phone"
+      },
+      {
+        "intent": "Lazy",
+        "text": "I spend a lot of time playing video games"
+      },
+      {
+        "intent": "Lazy",
+        "text": "I dont really care if I dont score well"
+      },
+      {
+        "intent": "Lazy",
+        "text": "There’s still 2 weeks before the deadline"
+      },
+      {
+        "intent": "Lazy",
+        "text": "It’s too tiring to study"
+      },
+      {
+        "intent": "Lazy",
+        "text": "I always slack off at work"
+      },
+      {
+        "intent": "Lazy",
+        "text": "I’m supposed to study but it’s okay"
+      },
+      {
+        "intent": "Lazy",
+        "text": "I dont want to work hard"
+      },
+      {
+        "intent": "Lazy",
+        "text": "Id rather just get an ok grade"
+      },
+      {
+        "intent": "Lazy",
+        "text": "Too much effort for too little reward"
+      },
+      {
+        "intent": "Lazy",
+        "text": "Studying is for nerds"
+      },
+      {
+        "intent": "Lazy",
+        "text": "I’ll take a little break"
+      },
+      {
+        "intent": "Lazy",
+        "text": "15 more minutes before i get back to work"
+      },
+      {
+        "intent": "Lazy",
+        "text": "Lemme take a little nap before i start studying"
+      },
+      {
+        "intent": "Lazy",
+        "text": "My friends are all nerds"
+      },
+      {
+        "intent": "Lazy",
+        "text": "All my friends do is study"
+      },
+      {
+        "intent": "Lazy",
+        "text": "They all refuse to go out and play with me"
+      },
+      {
+        "intent": "Lazy",
+        "text": "I regret not studying"
+      },
+      {
+        "intent": "Lazy",
+        "text": "I don't work hard enough"
+      },
+      {
+        "intent": "Lazy",
+        "text": "I would like to put in more effort"
+      },
+      {
+        "intent": "Lazy",
+        "text": "Aiya still got 3 more weeks"
+      },
+      {
+        "intent": "Lazy",
+        "text": "Laze ah"
+      },
+      {
+        "intent": "Lazy",
+        "text": "I think I'm too lazy"
+      },
+      {
+        "intent": "Lazy",
+        "text": "I haven't started finding a job yet."
+      },
+      {
+        "intent": "Lazy",
+        "text": "I will start finding a job later"
+      },
+      {
+        "intent": "Lazy",
+        "text": "Why didn’t I start studying earlier"
+      },
+      {
+        "intent": "Lazy",
+        "text": "Why study hard if im going to fail anyways"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I don’t make enough money to buy the things I want"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I live in a small and cramped apartment"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I can barely earn enough money for my family right now"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I cannot afford luxuries"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I don’t make enough money to send my children to school."
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I am depressed about finding a job"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I cannot find a job"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "My career is not going well right now"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I wish I was born rich"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I hope I can get a better job in the future"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I hope I earn more money next time"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I haven’t been promoted in really long."
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I am not doing well at work."
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I always get scolded by my boss."
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I have a dream to be rich one day"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I dont know if I can make ends meet"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "After trying for many months i still cant find a job"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "No employer wants to hire me"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "My job sucks"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I wish i could be working somewhere else"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I wish i didnt need to work"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "My company doesnt pay me enough"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "Nobody respects me at work"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I’m doing badly at work"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "My boss always scolds me at work"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I’m quite unsatisfied with my work environment."
+      },
+      {
+        "intent": "Career/Money",
+        "text": "How will i ever find a job"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "How will I pay for housing?"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "How will I pay for my children's education"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "How will I pay for my children's school fees?"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I don't know how I'm going to afford everything."
+      },
+      {
+        "intent": "Career/Money",
+        "text": "Money is always an issue."
+      },
+      {
+        "intent": "Career/Money",
+        "text": "Everything costs so much!"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "The cost of living in Singapore is very expensive."
+      },
+      {
+        "intent": "Career/Money",
+        "text": "I always worry clearing bills every month"
+      },
+      {
+        "intent": "Career/Money",
+        "text": "Work life balance is really bad for me"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I have no friends."
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I know a lot of people but have no real friends"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I like to stay at home and do nothing"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I always game by myself at home"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I don’t go out often."
+      },
+      {
+        "intent": "No_social_life",
+        "text": "Eat sleep repeat"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "Eat sleep code"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "My favourite pastime is to take a nap."
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I wish I could find a friend who accepts me for who i am"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "My life is pretty boring lol"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "There’s nothing interesting in my life"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "My life is a routine"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I dont have much outside of work"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I don’t really meet my friends"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "If possible, I would stay at home and do nothing all day"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I don’t like drinking lol"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "Parties are too noisy for me"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I dont know how people party everyday"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I dont need friends"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I want to watch this movie but I have nobody to watch with"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "There’s nobody to go out with on the weekends"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I’m really not that interesting"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I prefer being alone"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "Being alone isnt that bad"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I feel lonely at times"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I’m happy being alone"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "When im at home i just sleep"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "Sleep is the best"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I have no plans this weekend"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "Nobody asked me out this weekend"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "Everybody hates me"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "Why is everybody so mean to me?"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I'm not well-liked by others"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I cannot make friends"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I find that I cannot make friends"
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I find it hard to make new friends."
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I'd rather stay at home and play computer games."
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I'd rather stay at home and read a good book."
+      },
+      {
+        "intent": "No_social_life",
+        "text": "It's too tiring going out and meeting new people."
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I don't know how to talk to strangers."
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I am uncomfortable around new people."
+      },
+      {
+        "intent": "No_social_life",
+        "text": "I am socially awkward"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I’m pretty happy with my life"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I love sports"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "Will I ever be happy?"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "What is the meaning of life?"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I feel Singapore is a good place to live in"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I have family problems at home"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I feel sad most of the time"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I believe in doing the right thing"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I am a boy"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I am a girl"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I admire his perseverance."
+      },
+      {
+        "intent": "Unrelated",
+        "text": "If I work hard, I can do anything I set my mind to."
+      },
+      {
+        "intent": "Unrelated",
+        "text": "No man is an island"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "Death penalty is a bit extreme in Singapore"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "How is my mother so stubborn?"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I’m thinking about a car"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I want to live in a condominium."
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I like to eat laksa"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "My favourite drink is ice lemon tea"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I like doing math."
+      },
+      {
+        "intent": "Unrelated",
+        "text": "What is your name?"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "Are you a bot?"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "Do you have anything to say to me?"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "My father always nags at me"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I like to cycle."
+      },
+      {
+        "intent": "Unrelated",
+        "text": "Exercising makes me feel good."
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I look better with long hair."
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I go for training once a week"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I meet my boyfriend almost everyday"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I’m working on a computer programme right now"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I make friends with almost everybody I meet"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "How do I do this math question?"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "Are you actually listening to me?"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I have a lot of questions right now"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I love singing and dancing"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "A little bit of stress may be good for us"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I go to the same place for lunch everyday"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I like ice cream!"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I like to exercise as it keeps me energised"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "My favourite food is pasta"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "geuyfgfeugfeuigefiuew"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "tiuotjoirthoigeiyghvs"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "dvcsjhvcduyfcweedubwkcd"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "gruyfgfr7fhub feugferiudgvf vre"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I like lalalalalla"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "typing gibberish here and nobody will know"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "blablabla"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I'm planning on buying new headphones"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I really want to buy this new computer"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "My clothes are all old"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I am going to NS soon."
+      },
+      {
+        "intent": "Unrelated",
+        "text": "Jackson Wang is coming for a concert soon"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "Let's talk about happier things"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "What's going on in your life?"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "Would you like to tell me anything"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "Hey!"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "Helloooo"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "Thanks for the chat man"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I am going for the concert next week"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "I'm going to koufu, you want anything?"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "frgeif34h9pfj4pf34"
+      },
+      {
+        "intent": "Unrelated",
+        "text": "Lionel Messi is the best footballer of all time."
+      },
+      {
+        "intent": "Unrelated",
+        "text": "My project deadline coming soon."
+      },
+      {
+        "intent": "Unrelated",
+        "text": "Will I score high for exams?"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

@@ -132,3 +132,5 @@ dmypy.json
 .vscode/
 
 models/insult
+models/social/chatbot_final.h5
+chatbot_final.h5
